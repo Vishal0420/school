@@ -6,7 +6,7 @@
     <title>Add Banners</title>
     <link rel="stylesheet" href="<?= base_url('assets/css/admin_style.css'); ?>">
     <style>
-                .newBanner {
+   .newBanner {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; /* Adjust this as needed */

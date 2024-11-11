@@ -12,6 +12,12 @@
     
 </head>
 <body>
+<?php
+if ($login_error = $this->session->flashdata('error')) {
+    echo '<script> alert("' . $login_error . '"); </script>';
+}
+?>
+
     <div class="background">
         <div class="shape"></div>
         <div class="shape"></div>
