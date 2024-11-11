@@ -5,8 +5,8 @@
             </div>
             <div class="mid" style ="color:white;margin-right: 60px;">
             <?php 
-            if ($login_error = $this->session->flashdata('sucess')) :
-                echo $login_error;
+            if ($login = $this->session->flashdata('sucess')) :
+                echo $login;
             endif;
             
             if ($aim_updated = $this->session->flashdata('aim_updated')) : 
